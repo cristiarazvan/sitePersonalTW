@@ -1,0 +1,229 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Personal Portfolio Website",
+            "image": "image1.jpg",
+            "class": "TW 2024",
+            "description": "A responsive portfolio website with dark mode and animations.",
+            "languages": ["HTML", "CSS", "JavaScript"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 2,
+            "title": "Database Management System",
+            "image": "image2.jpg",
+            "class": "BD 2024",
+            "description": "A robust DBMS with CRUD operations and transaction management.",
+            "languages": ["Java", "SQL"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 3,
+            "title": "OS Kernel Module",
+            "image": "image3.jpg",
+            "class": "SO 2024",
+            "description": "Custom kernel module for resource management.",
+            "languages": ["C", "Assembly-x86"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 4,
+            "title": "Game Engine Core",
+            "image": "image4.jpg",
+            "class": "PPD 2024",
+            "description": "High-performance game engine core with multi-threading.",
+            "languages": ["C++", "Rust"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 5,
+            "title": "Cloud Microservices",
+            "image": "image5.jpg",
+            "class": "Cloud 2024",
+            "description": "Scalable microservices architecture for cloud deployment.",
+            "languages": ["Go", "Docker"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 6,
+            "title": "System Monitor",
+            "image": "image6.jpg",
+            "class": "ITBI 2024",
+            "description": "System resource monitoring and reporting tool.",
+            "languages": ["Python", "Bash"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 7,
+            "title": "Enterprise CRM",
+            "image": "image7.jpg",
+            "class": "ISS 2024",
+            "description": "Enterprise-level customer relationship management system.",
+            "languages": ["C#", "SQL", "JavaScript"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 8,
+            "title": "Real-time Analytics Platform",
+            "image": "image8.jpg",
+            "class": "BigData 2024",
+            "description": "Real-time data processing and analytics platform.",
+            "languages": ["Python", "Java", "SQL"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 9,
+            "title": "Embedded System Controller",
+            "image": "image9.jpg",
+            "class": "MSR 2024",
+            "description": "Low-level embedded system controller firmware.",
+            "languages": ["C", "Assembly-x86", "Rust"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 10,
+            "title": "Web API Gateway",
+            "image": "image10.jpg",
+            "class": "SDI 2024",
+            "description": "API gateway with authentication and rate limiting.",
+            "languages": ["Go", "JavaScript"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 11,
+            "title": "Mobile App Backend",
+            "image": "image11.jpg",
+            "class": "MA 2024",
+            "description": "Scalable backend for mobile applications.",
+            "languages": ["Java", "SQL", "Python"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 12,
+            "title": "Game Physics Engine",
+            "image": "image12.jpg",
+            "class": "GFX 2024",
+            "description": "3D physics engine for game development.",
+            "languages": ["C++"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 13,
+            "title": "DevOps Pipeline",
+            "image": "image13.jpg",
+            "class": "DevOps 2024",
+            "description": "Automated CI/CD pipeline with monitoring.",
+            "languages": ["Bash", "Python", "Go"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 14,
+            "title": "Blockchain Network",
+            "image": "image14.jpg",
+            "class": "BC 2024",
+            "description": "Decentralized blockchain network implementation.",
+            "languages": ["Rust", "Go"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 15,
+            "title": "Cross-platform Desktop App",
+            "image": "image15.jpg",
+            "class": "IP 2024",
+            "description": "Desktop application with native performance.",
+            "languages": ["C#", "C++"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 16,
+            "title": "Machine Learning Framework",
+            "image": "image16.jpg",
+            "class": "IA 2024",
+            "description": "Custom ML framework for deep learning.",
+            "languages": ["Python", "C++"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 17,
+            "title": "System Bootloader",
+            "image": "image17.jpg",
+            "class": "ASC 2024",
+            "description": "Custom bootloader with multiple stage loading.",
+            "languages": ["Assembly-x86", "C"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 18,
+            "title": "Web Framework",
+            "image": "image18.jpg",
+            "class": "PW 2024",
+            "description": "Lightweight web framework with routing.",
+            "languages": ["JavaScript", "HTML", "CSS"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 19,
+            "title": "Network Protocol",
+            "image": "image19.jpg",
+            "class": "RC 2024",
+            "description": "Custom network protocol implementation.",
+            "languages": ["C", "Python"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 20,
+            "title": "Compiler Design",
+            "image": "image20.jpg",
+            "class": "LC 2024",
+            "description": "Custom programming language compiler.",
+            "languages": ["C++", "Assembly-x86", "Python"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 21,
+            "title": "Enterprise Integration",
+            "image": "image21.jpg",
+            "class": "EAI 2024",
+            "description": "Enterprise application integration platform.",
+            "languages": ["Java", "C#", "SQL"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 22,
+            "title": "IoT Platform",
+            "image": "image22.jpg",
+            "class": "IoT 2024",
+            "description": "IoT device management and data collection platform.",
+            "languages": ["Python", "C", "Rust"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 23,
+            "title": "Security Scanner",
+            "image": "image23.jpg",
+            "class": "CS 2024",
+            "description": "Automated security vulnerability scanner.",
+            "languages": ["Python", "Bash", "Go"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 24,
+            "title": "Virtual Machine",
+            "image": "image24.jpg",
+            "class": "CN 2024",
+            "description": "Lightweight virtual machine implementation.",
+            "languages": ["C++", "Assembly-x86", "Rust"],
+            "github": "https://github.com/cristiarazvan"
+        },
+        {
+            "id": 25,
+            "title": "Full-stack E-commerce",
+            "image": "image25.jpg",
+            "class": "SE 2024",
+            "description": "Complete e-commerce platform with payment integration.",
+            "languages": ["JavaScript", "Java", "SQL", "HTML", "CSS"],
+            "github": "https://github.com/cristiarazvan"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Personal Website</title>
+
+        <link rel="stylesheet" type="text/css" href="global.css" />
+        <link rel="stylesheet" type="text/css" href="styleSkills.css" />
+
+        <!-- icon -->
+        <link rel="icon" href="image.svg" />
+    </head>
+
+    <body>
+        <nav>
+            <input type="checkbox" id="menu-toggle" />
+            <ul class="dropdown">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li class="admin-option">
+                    <a href="adminoptions.html">Admin Options</a>
+                </li>
+            </ul>
+            <label for="menu-toggle" class="hamburger">☰</label>
+
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li class="admin-option" style="display: none">
+                    <a href="adminoptions.html">Admin Options</a>
+                </li>
+            </ul>
+        </nav>
+
+        <h1>Skills</h1>
+        <div class="main">
+            <div class="container">
+                <div class="skill-header">
+                    <p>HTML</p>
+                    <p data-skill="HTML">90%</p>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar"></div>
+                </div>
+                <div class="skill-header">
+                    <p>CSS</p>
+                    <p data-skill="CSS">72%</p>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar1"></div>
+                </div>
+                <div class="skill-header">
+                    <p>JavaScript</p>
+                    <p data-skill="JavaScript">68%</p>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar2"></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="skill-header">
+                    <p>C++</p>
+                    <p data-skill="C++">93%</p>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar3"></div>
+                </div>
+                <div class="skill-header">
+                    <p>Python</p>
+                    <p data-skill="Python">66%</p>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar4"></div>
+                </div>
+                <div class="skill-header">
+                    <p>Rust</p>
+                    <p data-skill="Rust">23%</p>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar5"></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="skill-header">
+                    <p>C#</p>
+                    <p data-skill="C#">76%</p>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar9"></div>
+                </div>
+                <div class="skill-header">
+                    <p>SQL</p>
+                    <p data-skill="SQL">40%</p>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar10"></div>
+                </div>
+                <div class="skill-header">
+                    <p>Bash</p>
+                    <p data-skill="Bash">44%</p>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar11"></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="skill-header">
+                    <p>Java</p>
+                    <p data-skill="Java">15%</p>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar6"></div>
+                </div>
+                <div class="skill-header">
+                    <p>Go</p>
+                    <p data-skill="Go">38%</p>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar7"></div>
+                </div>
+                <div class="skill-header">
+                    <p>Assembly X86</p>
+                    <p data-skill="Assembly-X86">56%</p>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar8"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <script src="skillsCalculator.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

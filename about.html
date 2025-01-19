@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Personal Website</title>
+
+        <link rel="stylesheet" type="text/css" href="global.css" />
+        <link rel="stylesheet" type="text/css" href="styleAbout.css" />
+
+        <!-- icon -->
+        <link rel="icon" href="image.svg" />
+    </head>
+
+    <body>
+        <nav>
+            <input type="checkbox" id="menu-toggle" />
+            <ul class="dropdown">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li class="admin-option">
+                    <a href="adminoptions.html">Admin Options</a>
+                </li>
+            </ul>
+            <label for="menu-toggle" class="hamburger">☰</label>
+
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li class="admin-option">
+                    <a href="adminoptions.html">Admin Options</a>
+                </li>
+            </ul>
+        </nav>
+
+        <canvas id="matrixCanvas" class="matrix-background"></canvas>
+
+        <section id="about">
+            <div class="about-card">
+                <h1>About Me</h1>
+                <p>
+                    I am a computer science student with a passion for creating
+                    efficient and user-friendly applications.
+                </p>
+                <p>
+                    Technology drives my curiosity and inspires my continuous
+                    growth.
+                </p>
+            </div>
+            <div class="about-card">
+                <h1>Education & Achievements</h1>
+                <p>
+                    I study at the University of Bucharest, where I strive for
+                    academic excellence.
+                </p>
+                <p>
+                    My achievements include bronze and silver medals in national
+                    programming competitions.
+                </p>
+            </div>
+            <div class="about-card">
+                <h1>Purpose of This Site</h1>
+                <p>
+                    This site highlights my journey and showcases the projects
+                    I’ve worked on.
+                </p>
+                <p>
+                    It reflects my dedication to improving my skills and
+                    exploring new challenges.
+                </p>
+            </div>
+        </section>
+
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <script src="script.js"></script>
+        <script src="canvasAnimation.js"></script>
+    </body>
+</html>

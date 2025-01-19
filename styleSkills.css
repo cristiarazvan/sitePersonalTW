@@ -1,0 +1,193 @@
+:root {
+    --skill-html: 0%;
+    --skill-css: 0%;
+    --skill-javascript: 0%;
+    --skill-c-plus-plus: 0%;
+    --skill-python: 0%;
+    --skill-rust: 0%;
+    --skill-csharp: 0%;
+    --skill-sql: 0%;
+    --skill-bash: 0%;
+    --skill-java: 0%;
+    --skill-go: 0%;
+    --skill-assembly-x86: 0%;
+}
+
+h1 {
+    font-size: var(--h1-font);
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+    padding: 1rem;
+    /* padding: 3rem; */
+}
+
+.container {
+    flex: 1 1 22%;
+    max-width: 22%;
+    min-width: 200px;
+    padding: 2rem;
+    border: 1px solid #000000;
+    background: #000000;
+    border-radius: 15px;
+    margin: 1rem;
+    width: 100%;
+    max-width: 768px;
+}
+
+@media screen and (max-width: 1840px) {
+    .container {
+        flex: 1 1 40%;
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 1201px) {
+    .main {
+        flex-direction: column;
+        width: 80%;
+        padding-left: 10%;
+        gap: 1rem;
+        /* align-items: center;*/
+    }
+
+    .container {
+        max-width: 100%;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+}
+.skill-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.progress-container {
+    display: flex;
+    height: 2rem;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 0.125rem;
+    border: 2px solid rgb(27, 153, 52);
+    padding: 0.75rem;
+}
+
+.progress-bar {
+    height: 1rem;
+    width: var(--skill-html);
+    border-radius: 0.25rem;
+    background-color: rgb(27, 153, 52);
+    transition: width 1s ease-in-out;
+}
+
+.progress-bar1 {
+    height: 1rem;
+    width: var(--skill-css);
+    border-radius: 0.25rem;
+    background-color: rgb(27, 153, 52);
+    transition: width 1s ease-in-out;
+}
+
+.progress-bar2 {
+    height: 1rem;
+    width: var(--skill-javascript);
+    border-radius: 0.25rem;
+    background-color: rgb(27, 153, 52);
+    transition: width 1s ease-in-out;
+}
+
+.progress-bar3 {
+    height: 1rem;
+    width: var(--skill-c-plus-plus);
+    border-radius: 0.25rem;
+    background-color: rgb(27, 153, 52);
+    transition: width 1s ease-in-out;
+}
+
+.progress-bar4 {
+    height: 1rem;
+    width: var(--skill-python);
+    border-radius: 0.25rem;
+    background-color: rgb(27, 153, 52);
+    transition: width 1s ease-in-out;
+}
+
+.progress-bar5 {
+    height: 1rem;
+    width: var(--skill-rust);
+    border-radius: 0.25rem;
+    background-color: rgb(27, 153, 52);
+    transition: width 1s ease-in-out;
+}
+
+.progress-bar6 {
+    height: 1rem;
+    width: var(--skill-java);
+    border-radius: 0.25rem;
+    background-color: rgb(27, 153, 52);
+    transition: width 1s ease-in-out;
+}
+
+.progress-bar7 {
+    height: 1rem;
+    width: var(--skill-go);
+    border-radius: 0.25rem;
+    background-color: rgb(27, 153, 52);
+    transition: width 1s ease-in-out;
+}
+
+.progress-bar8 {
+    height: 1rem;
+    width: var(--skill-assembly-x86);
+    border-radius: 0.25rem;
+    background-color: rgb(27, 153, 52);
+    transition: width 1s ease-in-out;
+}
+
+.progress-bar9 {
+    height: 1rem;
+    width: var(--skill-csharp);
+    border-radius: 0.25rem;
+    background-color: rgb(27, 153, 52);
+    transition: width 1s ease-in-out;
+}
+
+.progress-bar10 {
+    height: 1rem;
+    width: var(--skill-sql);
+    border-radius: 0.25rem;
+    background-color: rgb(27, 153, 52);
+    transition: width 1s ease-in-out;
+}
+
+.progress-bar11 {
+    height: 1rem;
+    width: var(--skill-bash);
+    border-radius: 0.25rem;
+    background-color: rgb(27, 153, 52);
+    transition: width 1s ease-in-out;
+}
